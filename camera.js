@@ -28,3 +28,6 @@ function capteaza() {
 }
 video.addEventListener("touchstart",capteaza);
 video.addEventListener("mousedown",capteaza);
+const cnvs=document.getElementById("canvas");
+cnvs.addEventListener("click",capteaza);
+cnvs.addEventListener("touch",capteaza);
